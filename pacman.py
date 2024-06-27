@@ -94,7 +94,7 @@ def move():
     if valid(pacman + aim):
         pacman.move(aim)
     else:
-        aim.x = -aim.x  # Reverse direction on wall collision
+        aim.x = -aim.x 
         aim.y = -aim.y
         pacman.move(aim)
 
